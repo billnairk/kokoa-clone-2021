@@ -1,3 +1,3 @@
 # Kokoa Clone 2021 Update
 
-CSS got so much better!
+노마드코더 코코아톡 클론 코딩 진행중... [21.04.18(일)]
