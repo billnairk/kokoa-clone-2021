@@ -33,25 +33,27 @@
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="img/NS_face.png"
-            class="user-component__avatar user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">NS Yoon Ji</h4>
-            <h6 class="user-component__subtitle">
-              [ Homework ]<br />user-component(채팅방)를 여러개<br />
-              추가 시 발생하는 margin-bottom 문제 해결
-            </h6>
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/NS_face.png"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">NS Yoon Ji</h4>
+              <h6 class="user-component__subtitle">
+                [ Homework ]<br />user-component(채팅방)를 여러개<br />
+                추가 시 발생하는 margin-bottom 문제 해결
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column user-component__column--chats">
+            <span>21:22</span>
+            <span class="user-component__column--chats-time badge">1</span>
           </div>
         </div>
-        <div class="user-component__column user-component__column--chats">
-          <span>21:22</span>
-          <span class="user-component__column--chats-time badge">1</span>
-        </div>
-      </div>
+      </a>
     </main>
 
     <nav class="nav">
@@ -80,6 +82,10 @@
         </li>
       </ul>
     </nav>
+
+    <div class="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
