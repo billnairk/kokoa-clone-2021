@@ -29,6 +29,12 @@
   align-items: center;
 }
 
+.status-bar__column:last-child :nth-child(1),
+.status-bar__column:last-child :nth-child(2),
+.status-bar__column:last-child :nth-child(3) {
+  margin-left: 5px;
+}
+
 .status-bar__column .fa-battery-full {
   margin: 0px 3px;
 }
