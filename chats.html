@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chats - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="chats-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -33,27 +33,167 @@
     </header>
 
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="img/NS_face.png"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">NS Yoon Ji</h4>
-              <h6 class="user-component__subtitle">
-                [ Homework ]<br />user-component(채팅방)를 여러개<br />
-                추가 시 발생하는 margin-bottom 문제 해결
-              </h6>
+      <div class="chats__chat">
+        <a href="src/chat_1.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <div class="user-component__group">
+                <img
+                  src="img/profile_하하.jpeg"
+                  class="user-component__avatar__group"
+                />
+                <img
+                  src="img/profile_유재석.jpeg"
+                  class="user-component__avatar__group"
+                />
+                <img
+                  src="img/profile_김종국.jpeg"
+                  class="user-component__avatar__group"
+                />
+                <img
+                  src="img/profile_이광수.jpeg"
+                  class="user-component__avatar__group"
+                />
+              </div>
+              <div class="user-component__text">
+                <span class="user-component__title">런닝맨 멤버</span>
+                <span class="user-component__title--count">8</span>
+                <h6 class="user-component__subtitle">
+                  석진이형 유튜브 자기전에 보면 잠 잘와요ㅋㅋ
+                </h6>
+              </div>
+            </div>
+            <div class="user-component__column user-component__column--chats">
+              <span>22:17</span>
+              <span class="user-component__column--chats-time badge">8</span>
             </div>
           </div>
-          <div class="user-component__column user-component__column--chats">
-            <span>21:22</span>
-            <span class="user-component__column--chats-time badge">1</span>
+        </a>
+      </div>
+      <div class="chats__chat">
+        <a href="src/chat_2.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="img/profile_전소민.png"
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">전소민</h4>
+                <h6 class="user-component__subtitle">세따니 보구싶당~♥️</h6>
+              </div>
+            </div>
+            <div class="user-component__column user-component__column--chats">
+              <span>21:53</span>
+              <span class="user-component__column--chats-time badge">2</span>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
+      <div class="chats__chat">
+        <a href="src/chat_3.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="img/profile_송중기.jpeg"
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">송중기</h4>
+                <h6 class="user-component__subtitle">Questo edificio è mio!</h6>
+              </div>
+            </div>
+            <div class="user-component__column user-component__column--chats">
+              <span>21:31</span>
+              <span class="user-component__column--chats-time badge">3</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="chats__chat">
+        <a href="src/chat_4.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="img/profile_전여빈.webp"
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">전여빈</h4>
+                <h6 class="user-component__subtitle">
+                  힘 있고돈 있으면<br />나보다 어려도 언니 오빠 삼촌이야.
+                </h6>
+              </div>
+            </div>
+            <div class="user-component__column user-component__column--chats">
+              <span>21:29</span>
+              <span class="user-component__column--chats-time badge">1</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="chats__chat">
+        <a href="src/chat_5.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="img/profile_유인나.png"
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">유인나</h4>
+                <h6 class="user-component__subtitle">♥️</h6>
+              </div>
+            </div>
+            <div class="user-component__column user-component__column--chats">
+              <span>21:10</span>
+              <span class="user-component__column--chats-time badge">1</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="chats__chat">
+        <a href="src/chat_6.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="img/profile_iu.jpeg"
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">이지은</h4>
+                <h6 class="user-component__subtitle">
+                  헤매도 좋으니<br />웃음 짓게 되길
+                </h6>
+              </div>
+            </div>
+            <div class="user-component__column user-component__column--chats">
+              <span>17:23</span>
+              <span class="user-component__column--chats-time badge">1</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="chats__chat">
+        <a href="/src/chat_7.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="img/profile_이광수.jpeg"
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">이광수</h4>
+                <h6 class="user-component__subtitle">재석이형!!!</h6>
+              </div>
+            </div>
+            <div class="user-component__column user-component__column--chats">
+              <span>13:02</span>
+              <span class="user-component__column--chats-time badge">3</span>
+            </div>
+          </div>
+        </a>
+      </div>
     </main>
 
     <nav class="nav">
@@ -65,7 +205,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge">19</span>
             <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>

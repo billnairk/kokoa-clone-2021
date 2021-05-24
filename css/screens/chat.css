@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 500vh;
+  height: 113vh;
 }
 
 #chat-screen .alt-header {
@@ -75,6 +75,16 @@
 }
 
 .message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__info img {
+  width: 300px;
+  height: auto;
+}
+
+.message__bubble__time {
   display: flex;
   align-items: flex-end;
 }
@@ -192,4 +202,12 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+.chat_1 {
+  height: 100vh;
+}
+
+.main-screen.main-chat {
+  padding-left: 15px;
 }

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen" class="chat_1">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="../chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">런닝맨 멤버</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Monday, May 24, 2021</div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">광수형 11년동안 재밌었어!!</span>
+            <span class="message__time">23:59</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="../img/profile_유재석.jpeg"
+          class="user-component__avatar--sm"
+        />
+        <div class="message-row__content">
+          <span class="message__author">유재석</span>
+          <div class="message__info">
+            <span class="message__bubble">방가~</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="../img/profile_전소민.png"
+          class="user-component__avatar--sm"
+        />
+        <div class="message-row__content">
+          <span class="message__author">전소민</span>
+          <div class="message__info">
+            <span class="message__bubble">세따나~♥️</span>
+            <span class="message__time">21:29</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="../img/profile_양세찬.jpeg"
+          class="user-component__avatar--sm"
+        />
+        <div class="message-row__content">
+          <span class="message__author">양세찬</span>
+          <div class="message__info">
+            <span class="message__bubble">ㅋㅋㅋㅋㅋ</span>
+            <span class="message__time">21:30</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="../img/profile_김종국.jpeg"
+          class="user-component__avatar--sm"
+        />
+        <div class="message-row__content">
+          <span class="message__author">김종국</span>
+          <div class="message__info">
+            <span class="message__bubble">내동생!</span>
+            <span class="message__time">21:42</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="../img/profile_하하.jpeg"
+          class="user-component__avatar--sm"
+        />
+        <div class="message-row__content">
+          <span class="message__author">하하</span>
+          <div class="message__info">
+            <span class="message__bubble">종국이형~</span>
+            <span class="message__time">21:50</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="../img/profile_송지효.jpeg"
+          class="user-component__avatar--sm"
+        />
+        <div class="message-row__content">
+          <span class="message__author">송지효</span>
+          <div class="message__info">
+            <span class="message__bubble">졸려...</span>
+            <span class="message__time">22:01</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="../img/profile_지석진.png"
+          class="user-component__avatar--sm"
+        />
+        <div class="message-row__content">
+          <span class="message__author">지석진</span>
+          <div class="message__info">
+            <span class="message__bubble">얘들아 지편한세상 구독 했니??</span>
+            <span class="message__time">22:15</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="../img/profile_이광수.jpeg"
+          class="user-component__avatar--sm"
+        />
+        <div class="message-row__content">
+          <span class="message__author">이광수</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >석진이형 유튜브 자기전에 보면 잠 잘와요ㅋㅋ</span
+            >
+            <span class="message__time">22:17</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div class="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
