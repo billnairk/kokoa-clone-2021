@@ -23,8 +23,20 @@
 @import "screens/chat.css";
 @import "screens/chats.css";
 
+@font-face {
+  font-family: "NEXON Lv2 Gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "ImcreSoojin"; */
+  font-family: "NEXON Lv2 Gothic";
+  font-size: 15px;
+  font-weight: 600;
+  /* font-family: "Open Sans", sans-serif; */
   height: 100vh;
   color: #2e363e;
 }
