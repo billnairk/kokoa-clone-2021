@@ -1,3 +1,10 @@
+#settings-screen .alt-header {
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  /* box-sizing: border-box; */
+}
+
 .settings__setting {
   padding-bottom: 25px;
   padding-top: 25px;
@@ -30,4 +37,8 @@
 .setting__Version span {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.3);
+}
+
+.settings-list {
+  margin-top: 100px;
 }
