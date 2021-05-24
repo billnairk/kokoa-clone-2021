@@ -2,7 +2,13 @@
   top: 0px;
   position: fixed;
   width: 100%;
-  /* box-sizing: border-box; */
+  height: auto;
+  background-color: white;
+  z-index: 20;
+}
+
+#settings-screen .status-bar {
+  z-index: 21;
 }
 
 .settings__setting {
